@@ -15,7 +15,7 @@ class NgApp {
   greet: string;
   
   constructor() {
-    greet = "Он работает!";
+    this.greet = "Он работает!";
   }
 }
 
